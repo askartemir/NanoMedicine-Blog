@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+  }
+h1{
+    /* put a 15 pixel margin at the bottom of the heading*/
+    margin-bottom: 15px;
+    /* change the size of the font to 60 pixels high */
+    font-size: 60px;
+    /* color the heading font the color of red */
+    color: red;
+    /* align the text to the center of its enclosing element (e.g. div) */
+    text-align: center;
+    /* underline the text */
+    text-decoration: underline;
+    /* the background color of the header will be black */
+    background-color: black;
+    
+    padding: 20px 0px;
+    
+    margin: 0;
+}
