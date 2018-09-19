@@ -2,6 +2,13 @@
     box-sizing: border-box;
     text-align: center;
   }
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 h1{
     /* put a 15 pixel margin at the bottom of the heading*/
     margin-bottom: 15px;
@@ -11,12 +18,17 @@ h1{
     color: red;
     /* align the text to the center of its enclosing element (e.g. div) */
     text-align: center;
-    /* underline the text */
-    text-decoration: underline;
     /* the background color of the header will be black */
     background-color: black;
     
     padding: 20px 0px;
     
     margin: 0;
+}
+
+#newrealm{
+    float: left;
+    left: 0;
+    right: 0;
+    top: 150px;
 }
