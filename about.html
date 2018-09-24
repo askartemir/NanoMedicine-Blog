@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <title>Nanomed.launch</title>
+
+        <!-- We link our html to the Bootstrap CDN -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+        <!-- Our own CSS stylesheet -->
+        <link rel="stylesheet" href="assets/css/styles.css" media="screen">
+
+
+    </head>
+
+    <body>
+
+        <!-- Container Div -->
+        <div class="container">
+
+            <!-- Section 1: Navbar-->
+            <nav class="navbar navbar-default">
+
+                <!-- Place Fluid Container in Navbar -->
+                <div class="container-fluid">
+
+                    <!-- Designate a navbar heading -->
+                    <div class="navbar-header">
+
+                        <!-- Collapsible button -->
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+
+                            <!-- navbar button elements-->
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span> <!-- first line -->
+                            <span class="icon-bar"></span> <!-- second line -->
+                            <span class="icon-bar"></span> <!-- third line -->
+
+                        </button>
+                        <!-- Our brand / logo -->
+                        <a class="navbar-brand" href="#">Nanomed.launch</a>
+                    </div>
+
+                    <!-- The links of our navbar -->
+                    <div id="navbar" class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav">
+                            <li class="active"><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="team.html">Team</a></li>
+
+                            <!-- a Dropdown menu -->
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Blog <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Biofunctionalization of Nanomaterials</a></li>
+                                    <li><a href="#">Biological and Pharmaceutical Nanomaterials</a></li>
+                                    <li><a href="#">Nanosystem Characterization Tools in the Life Sciences</a></li>
+                                    <li><a href="#">Nanodevices for the Life Sciences</a></li>
+                                    <li><a href="#">Nanomaterials - Toxicity, Health and Environmental Issues</a></li>
+                                    <li><a href="#">Apoptosis and Cancer Therapy</a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li class="dropdown-header">Bonus</li>
+                                    <li><a href="#">How It Is Made</a></li>
+                                    <li><a href="#">Papers Discussion</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                        <!-- More links -->
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="active"><a href="./">Default <span class="sr-only">(current)</span></a></li>
+                            <li><a href="../navbar-static-top/">Static top</a></li>
+                            <li><a href="../navbar-fixed-top/">Fixed top</a></li>
+                        </ul>
+                    </div>
+                <!--/.nav-collapse -->
+                </div>
+                <!--/.container-fluid -->
+            </nav>
+
+            <!-- Start of content wrap -->
+            <div class="wrap">
+                <div class="container">
+                <section class="row">
+                    <div class="col-md-8">
+                        <form class="contact-form">
+                            <h1 class="contact-form-header">Contact Us</h1>
+                            <hr class="contact-hr"/>
+                            <div class="form-group">
+                                <label class="label-name" for="name">Name</label>
+                                <input type="text" id="name_input" name="user_name" />
+                            </div>
+                            <div class="form-group">
+                                <label class="label-mail" for="mail">E-mail</label>
+                                <input type="email" id="mail_input" name="user_mail" />
+                            </div>
+                            <div class="form-group">
+                                <label class="label-msg" for="msg">Message</label><br />
+                                <textarea id="msg" name="user_message_input" cols=600></textarea>
+                            </div>
+                            <button class="submit-btn">Submit</button>
+                        </form>
+                    </div>
+                    <div class="col-md-4">
+      
+                        <!-- Start of Connect With Me Area -->
+                        <section id="connect-with-me-area">
+                            <div class="connect-with-me-content">
+                                <h1 class="connect-with-me-header">Cool Decoration</h1>
+                                <hr />
+                                <div id="images">
+                                    <img src="github.png" alt="" class="connect-with-me-photo">
+                                    <img src="linkedin.png" alt="" class="connect-with-me-photo">
+                                    <img src="stackoverflow.png" alt="" class="connect-with-me-photo">
+                                </div>
+                            </div>
+                        </section>
+      
+                    <!-- End of the Connect With Me Area -->
+                    </div>
+                </section>
+            </div>
+        </div>
+        <!-- End of content wrap -->
+      
+        <!-- Start of footer -->
+        <footer class="footer">
+            <div class="two-toned-footer-color"></div>
+            <p class="text-muted text-muted-footer text-center">
+              &copy; Copyright 2018 Askar Temirbek
+            </p>
+        </footer>
+        <!-- End of footer -->
+      
+        <!-- jQuery CDN -->
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      
+        <!-- Bootstrap CDN -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+      
+    </body>
+      
+</html>
+      
